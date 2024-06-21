@@ -1,0 +1,3 @@
+executar streamlit com venv:
+
+- source venv/Scripts/activate && streamlit run streamlit_app.py
