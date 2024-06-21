@@ -45,19 +45,19 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-path1 = r"./data/dados-inpe-2020/sample.csv"
+path1 = r"./db/inpe-2020/sample.csv"
 dataset1 = pd.read_csv(path1, sep=",")
 dataset1 = dataset1.drop(dataset1.columns[[0]], axis=1)
 
-path2 = r"./data/dados-inpe-2021/sample.csv"
+path2 = r"./db/inpe-2021/sample.csv"
 dataset2 = pd.read_csv(path2, sep=",")
 dataset2 = dataset2.drop(dataset2.columns[[0]], axis=1)
 
-path3 = r"./data/dados-inpe-2022/sample.csv"
+path3 = r"./db/inpe-2022/sample.csv"
 dataset3 = pd.read_csv(path3, sep=",")
 dataset3 = dataset3.drop(dataset3.columns[[0]], axis=1)
 
-path4 = r"./data/dados-inpe-2023/sample.csv"
+path4 = r"./db/inpe-2023/sample.csv"
 dataset4 = pd.read_csv(path4, sep=",")
 dataset4 = dataset4.drop(dataset4.columns[[0]], axis=1)
 ###
