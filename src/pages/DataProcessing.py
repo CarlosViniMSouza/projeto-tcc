@@ -9,7 +9,7 @@ A seção de “Tratamento dos Dados” é fortemente vinculada ao processo "E.T
 Nessa etapa, o dataset é minuciosamente trabalhado, e dependendo das informações a serem obtidas, o pesquisador deverá produzir novos dados, editar os dados existentes, e/ou remover os dados que possam ocasionar erros e incongruências nas próximas fases da pesquisa.
 
 `Os cometários na parte superior de cada trecho de código são auto-explicativos. E foram aplicados em todos os datasets (2020, 2021, 2022 e 2023)`
-""", unsafe_allow_html=True)
+""")
 
 st.title("*Extract* - Extrair dados da Nuvem")
 

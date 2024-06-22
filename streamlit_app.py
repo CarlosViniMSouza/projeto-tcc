@@ -37,7 +37,7 @@ O estudo dirigido neste artigo visa pôr em teste metodologias convencionais, co
 *The study conducted in this article aims to test conventional methodologies, such as exploratory analysis techniques on massive data, common statistical methods (such as Descriptive Statistics, Sampling, Hypothesis Testing), in addition to looking for possible behavioral patterns in the data available in the aforementioned sources in search. In which data analysis tools were used, databases available through Open Data platforms, from organizations and public institutions, statistical and exploratory analysis methods for research of this size. Allowing a more comprehensive view of fire outbreaks in the Brazilian Amazon Forest region, and greater understanding of these occurrences.*
 
 `Keywords: Burns, Amazon Forest, Data Analysis, Exploratory Analysis, Geospatial Data`
-""", unsafe_allow_html=True)
+""")
 
 st.markdown("---")
 
@@ -48,4 +48,4 @@ footer {visibility: hidden;}
 </style>
 """
 
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+st.markdown(hide_streamlit_style)

@@ -1,5 +1,5 @@
 git add .
-git commit -m "add: inpe 2022 e 2023 | to-do: deploy"
+git commit -m "add: HypothesisTest.py"
 git push -u origin main
 git status
 

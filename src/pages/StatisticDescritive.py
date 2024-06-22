@@ -12,14 +12,14 @@ Essa parte da pesquisa foi dividida em 3 etapas:
 1. **Informações básicas com Numpy e Pandas:** local de obtenção das médias, modas, medianas, variâncias, desvios-padrão, tipo de dados das colunas, quantidade de dados, etc.
 2. **Visualização de Dados com Matplotlib (básico):** informações primárias a serem obtidas isoladamente, tais como as incidências de queimadas nos estados; os municípios com mais registros de focos, e correlações entre classes com Mapa de Calor.
 3. **Visualização de Dados com Plotly (avançado):** além das informações básicas, insights mais difíceis e mais elaborados foram construídos, com o intuito de validar de forma visual os resultados apresentados nas etapas 1 e 2. Indo desde correlações multivariadas, até mapas geográficos.
-""", unsafe_allow_html=True)
+""")
 
 st.markdown("""
 ```
 AVISO: Devidos as restrições de 'Tamanho de Arquivos' no GitHub, 
 abaixo foram usadas as amostras de 10% dos datasets!
 ```
-""", unsafe_allow_html=True)
+""")
 
 st.markdown("""
 ### Informações Básicas
@@ -31,14 +31,14 @@ Todos os datasets utilizados possuem o mesmo tipo de dados para suas respectivas
 
 A única diferença é o 'RangeIndex' na segunda linha das imagens. 
 As duas imagens abaixo são apresentações resumidas de características gerais e numéricas dos datasets do INPE:
-""", unsafe_allow_html=True)
+""")
 
 st.image("./src/assets/statisticDescritive/image01.png")
 
 st.markdown("""
 O método *describe()* fornece uma visão ampla de alguns valores estatísticos, nos quais, há os valores mínimos e máximos, o desvio padrão, média e os quartis (25%, 50% e 75%) de cada classe. 
 No caso dos datasets em questão, apenas as informações de 'DiaSemChuva', 'Precipitacao' e 'FRP'.
-""", unsafe_allow_html=True)
+""")
 
 ###
 import pandas as pd
@@ -124,7 +124,7 @@ st.pyplot(fig)
 st.markdown("""
 E por fim, foram feitos os *Heatmaps* (mapas de calor), porém, devido a baixíssima correlação das variáveis, 
 os gráficos ficaram completamente idênticos em aparência, por isso, apenas um dos gráficos está disposto.
-""", unsafe_allow_html=True)
+""")
 
 st.code("""
 # Correlação em Mapa de Calor

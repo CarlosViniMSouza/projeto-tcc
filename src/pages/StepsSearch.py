@@ -66,4 +66,4 @@ Links: [17 Statistical Hypothesis Tests in Python (Cheat Sheet) - MachineLearnin
 
 1. Feito os estudos e os testes iniciais, fazer as equivalências para elaboração da Conclusão do Trabalho.
 2. Empacotar e organizar os resultados para apresentação.
-""", unsafe_allow_html=True)
+""")

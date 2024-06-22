@@ -26,7 +26,7 @@ Os métodos de amostragem devem ser conduzidos em 6 etapas:
 4. Selecionar amostra: As amostras devem ser selecionadas aleatoriamente e/ou, quando utilizado um método não aleatório, todos os esforços devem ser feitos para minimizar o viés e garantir que a amostra seja representativa.
 5. Coleta de dados: os dados foram coletados anteriormente no BDQueimadas do INPE.
 6. Analisar os dados: etapa essa que vem logo a seguir, onde os dados serão transformados em informação.
-""", unsafe_allow_html=True)
+""")
 
 st.title("Distribuição Probabilística")
 
