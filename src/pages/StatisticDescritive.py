@@ -1,5 +1,9 @@
 import streamlit as st
-from st_pages import add_page_title, hide_pages
+from st_pages import add_page_title
+
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 add_page_title()
 
@@ -41,10 +45,6 @@ No caso dos datasets em questão, apenas as informações de 'DiaSemChuva', 'Pre
 """)
 
 ###
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-
 path1 = r"./db/inpe-2020/sample.csv"
 dataset1 = pd.read_csv(path1, sep=",")
 dataset1 = dataset1.drop(dataset1.columns[[0]], axis=1)
@@ -104,13 +104,13 @@ plt.show() # it works perfectly
 ###
 # Unindo os 4 datasets em 1
 frames = [dataset1, dataset2, dataset3, dataset4]
-dfMerged= pd.concat(frames)
+dfMerged = pd.concat(frames)
 
 pop_amaz = dfMerged[dfMerged['Estado'] == 'AMAZONAS']
 counts = pop_amaz['Municipio'].value_counts()
 top_10 = counts.nlargest(10)
 
-fig = plt.figure(figsize=(12,8))
+fig = plt.figure(figsize=(12, 8))
 plt.barh(top_10.index, top_10.values)
 plt.xlabel('Numeros de focos localizados por Cidade')
 plt.ylabel('Municipios')

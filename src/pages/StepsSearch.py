@@ -1,12 +1,13 @@
 import streamlit as st
-from st_pages import add_page_title, hide_pages
+from st_pages import add_page_title
 
 add_page_title()
 
 st.markdown("""
 **Etapa 01:** Seleção do Dataset e das Ferramentas
 
-1. Quanto ao dataset, o INPE fornece conjuntos de dados anuais em formato de Dados Abertos para acesso público. E por conta de problemas relacionados à estrutura dos arquivos .csv do INMET, os dados fornecidos pelo INPE serão o único dataset utilizado.
+1. Quanto ao dataset, o INPE fornece conjuntos de dados anuais em formato de Dados Abertos para acesso público. 
+E por conta de problemas relacionados à estrutura dos arquivos *.csv* do INMET, os dados fornecidos pelo INPE serão o único dataset utilizado.
 2. Quanto a parte ferramental, temos algumas bibliotecas para aplicar a parte metodológica: *Statistics; NumPy; SciPy; Pandas; Matplotlib;*
 
 **Etapa 02:** Elaboração da Arquitetura e do Ambiente de Trabalho
@@ -19,14 +20,17 @@ st.markdown("""
 1. Coletar informações obtidas pertencentes ao dataset.
 2. Amostragens a serem levadas em conta: 
 
-&emsp; * *<u>Amostragem Probabilística:</u>* Amostragem aleatória simples; <br>
-&emsp; * *<u>Amostragem Não Probabilística:</u>* Amostragem proposital; <br>
+&emsp; - *Amostragem Probabilística:* Amostragem aleatória simples;
+
+&emsp; - *Amostragem Não Probabilística:* Amostragem proposital;
 
 3. Links:
 
-&emsp; * [Sampling with Python. Introduction | by Wendy Hu](https://medium.com/@whystudying/sampling-with-python-8bd135b3b078) <br>
-&emsp; * [Sampling Methods - Types, Techniques and Examples (researchmethod.net)](https://researchmethod.net/sampling-methods/) <br>
-&emsp; * [Sampling Distribution: Definition, Formula & Examples - Statistics By Jim](https://statisticsbyjim.com/hypothesis-testing/sampling-distribution/) <br>
+&emsp; * [Sampling with Python. Introduction | by Wendy Hu](https://medium.com/@whystudying/sampling-with-python-8bd135b3b078)
+
+&emsp; * [Sampling Methods - Types, Techniques and Examples (researchmethod.net)](https://researchmethod.net/sampling-methods/)
+
+&emsp; * [Sampling Distribution: Definition, Formula & Examples - Statistics By Jim](https://statisticsbyjim.com/hypothesis-testing/sampling-distribution/)
 
 **Etapa 04:** Tratamento dos Dados
 1. Aplicar o conceito E.T.L. (*Extract, Transform, Load*) no dataset.
@@ -38,18 +42,23 @@ st.markdown("""
 2. Organizar os resultados obtidos em uma tabela.
 3. Links: 
 
-&emsp; * [Python Statistics Fundamentals: How to Describe Your Data - Real Python](https://realpython.com/python-statistics/) <br>
-&emsp; * [Master Statistical Analysis with Python: A Comprehensive Guide for Data Scientists](https://medium.com/illumination/how-to-perform-statistical-analysis-using-python-the-ultimate-guide-9458ae0ace1c) <br>
+&emsp; * [Python Statistics Fundamentals: How to Describe Your Data - Real Python](https://realpython.com/python-statistics/)
+
+&emsp; * [Master Statistical Analysis with Python: A Comprehensive Guide for Data Scientists](https://medium.com/illumination/how-to-perform-statistical-analysis-using-python-the-ultimate-guide-9458ae0ace1c)
 
 **Etapa 06:** Teste de Hipótese
 1. Explorar possibilidades a serem usadas.
 2. Exemplos teóricos a serem estudados: 
 
-&emsp; * Teste de Shapiro-Wilk <br>
-&emsp; * Coeficiente de Correlação de Pearson <br>
-&emsp; * Teste de raiz unitária Dickey-Fuller aumentado <br>
-&emsp; * Teste de Análise de Variância (*ANOVA - Analysis of Variance Test*) <br>
-&emsp; * Teste de Friedman <br>
+&emsp; - Teste de Shapiro-Wilk
+
+&emsp; - Coeficiente de Correlação de Pearson
+
+&emsp; - Teste de raiz unitária Dickey-Fuller aumentado
+
+&emsp; - Teste de Análise de Variância (*ANOVA - Analysis of Variance Test*)
+
+&emsp; - Teste de Friedman
 
 Links: [17 Statistical Hypothesis Tests in Python (Cheat Sheet) - MachineLearningMastery.com](https://machinelearningmastery.com/statistical-hypothesis-tests-in-python-cheat-sheet/)
 
@@ -59,8 +68,9 @@ Links: [17 Statistical Hypothesis Tests in Python (Cheat Sheet) - MachineLearnin
 2. Comparar os resultados com a hipótese estatística elaborada anteriormente.
 3. Links:
 
-&emsp; * [Linear Algebra in Python: Matrix Inverses and Least Squares - Real Python](https://realpython.com/python-linear-algebra/) <br>
-&emsp; * [Working With Linear Systems in Python With scipy.linalg - Real Python](https://realpython.com/python-scipy-linalg/#getting-started-with-scipylinalg) <br>
+&emsp; * [Linear Algebra in Python: Matrix Inverses and Least Squares - Real Python](https://realpython.com/python-linear-algebra/)
+
+&emsp; * [Working With Linear Systems in Python With scipy.linalg - Real Python](https://realpython.com/python-scipy-linalg/#getting-started-with-scipylinalg)
 
 **Etapa 08:** Validação Algoritmos preditivos
 

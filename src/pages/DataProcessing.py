@@ -1,14 +1,19 @@
 import streamlit as st
-from st_pages import add_page_title, hide_pages
+from st_pages import add_page_title
 
 add_page_title()
 
-st.markdown("""
-A seção de “Tratamento dos Dados” é fortemente vinculada ao processo "E.T.L." (*Extract, Transform, Load*), ou seja, uma fase predecessora a análise e exploração dos dados obtidos. 
+st.markdown("""A seção de “Tratamento dos Dados” é fortemente vinculada ao processo "E.T.L." (*Extract, Transform, 
+Load*), ou seja, uma fase predecessora a análise e exploração dos dados obtidos.
 
-Nessa etapa, o dataset é minuciosamente trabalhado, e dependendo das informações a serem obtidas, o pesquisador deverá produzir novos dados, editar os dados existentes, e/ou remover os dados que possam ocasionar erros e incongruências nas próximas fases da pesquisa.
+Nessa etapa, o dataset é minuciosamente trabalhado, e dependendo das informações a serem obtidas, o pesquisador 
+deverá produzir novos dados, editar os dados existentes, e/ou remover os dados que possam ocasionar erros e 
+incongruências nas próximas fases da pesquisa.
 
-`Os cometários na parte superior de cada trecho de código são auto-explicativos. E foram aplicados em todos os datasets (2020, 2021, 2022 e 2023)`
+```
+Os cometários na parte superior de cada trecho de código são auto-explicativos. E foram aplicados em todos os datasets
+(2020, 2021, 2022 e 2023)
+```
 """)
 
 st.title("*Extract* - Extrair dados da Nuvem")
@@ -70,7 +75,7 @@ gdf4.dtypes
 """, language="python")
 
 with st.expander("Tabela dos tipos de dados"):
-  st.markdown("""
+    st.markdown("""
   | Coluna | Tipo |
   |-----|----------------|
   | Dia | datetime64[ns] |

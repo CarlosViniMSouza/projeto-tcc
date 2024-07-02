@@ -1,5 +1,5 @@
 git add .
-git commit -m "add: HypothesisTest.py"
+git commit -m "alt: StepsSearch.py & DataSampling.py"
 git push -u origin main
 git status
 

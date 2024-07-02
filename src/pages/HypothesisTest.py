@@ -1,5 +1,5 @@
 import streamlit as st
-from st_pages import add_page_title, hide_pages
+from st_pages import add_page_title
 
 add_page_title()
 
@@ -23,7 +23,7 @@ O resultados dos testes aplicados estão tabelados abaixo:
 """)
 
 st.markdown("""
-| Tipos\Dataset | 2020 | 2021 | 2022 | 2023 |
+| Tipos/Dataset | 2020 | 2021 | 2022 | 2023 |
 |---------------|------|------|------|------|
 | Teste de Shapiro-Wilk | Provavelmente Não Gaussiano | Provavelmente Não Gaussiano | Provavelmente Não Gaussiano | Provavelmente Não Gaussiano |
 | Coeficiente de Correlação de Pearson | Provavelmente independente | Provavelmente independente | Provavelmente independente | Provavelmente independente |
